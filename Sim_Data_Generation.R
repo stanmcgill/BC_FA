@@ -42,6 +42,7 @@ Tau4<-0
 
 # mean of epsilon 
 mu_epsilon<-rep(0,P)
+
 # variance of epsilon, avoid for same Psi by setting sightly different mean
 Psi1<-diag(abs(runif(P,0.00,2)))
 Psi2<-diag(abs(runif(P,0.01,2)))
@@ -92,6 +93,8 @@ LC1<-rcat(N1, p1)
 LC2<-rcat(N2, p2)
 LC3<-rcat(N3, p3)
 LC4<-rcat(N4, p4)
+
+# save.image("Data_Generation_Parameters.RData")
 
 #Pick Y from Y1,Y2,Y3,Y4.
 
