@@ -121,4 +121,4 @@ cov(Y[(N1+1):(N1+N2),])
 cov(Y[(N1+N2+1):(N1+N2+N3),])
 cov(Y[(N1+N2+N3+1):N,])
 
-write.table(Y,file="Sim_Data.txt")
+# write.table(Y,file="Sim_Data.txt")
